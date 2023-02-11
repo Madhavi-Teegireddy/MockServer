@@ -44,5 +44,51 @@
       "borrowed": false,
       "id": 4
     }
-  ]
+  ],
+  "signup": [
+    {
+      "name": "Madhu",
+      "avatar": "https://e7.pngegg.com/pngimages/492/286/png-clipart-computer-icons-user-profile-avatar-avatar-heroes-monochrome-thumbnail.png",
+      "email": "m@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "Anushka",
+      "avatar": "https://e7.pngegg.com/pngimages/492/286/png-clipart-computer-icons-user-profile-avatar-avatar-heroes-monochrome-thumbnail.png",
+      "email": "anu@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "ref",
+      "avatar": "https://e7.pngegg.com/pngimages/492/286/png-clipart-computer-icons-user-profile-avatar-avatar-heroes-monochrome-thumbnail.png",
+      "email": "ref@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "har",
+      "avatar": "https://e7.pngegg.com/pngimages/492/286/png-clipart-computer-icons-user-profile-avatar-avatar-heroes-monochrome-thumbnail.png",
+      "email": "har@gmail.com",
+      "password": "12",
+      "id": 6
+    }
+  ],
+  "blog":
+  [
+  {
+		"id" : 1,
+    "username": "coreyschafer",
+    "title": "Be Present",
+    "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
+		"category" : "Entertainment",
+		"date" : "2017-06-01",
+		"likes" : 24,
+		"comments" : [
+      {"username" : "Jane", "content" : "Good One"},
+      {"username" : "Bob", "content" : "Loved It!"}
+      ]
+  }
+]
 }
