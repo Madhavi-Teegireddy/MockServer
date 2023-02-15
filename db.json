@@ -75,20 +75,78 @@
       "id": 6
     }
   ],
-  "blog":
-  [
-  {
-		"id" : 1,
-    "username": "coreyschafer",
-    "title": "Be Present",
-    "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
-		"category" : "Entertainment",
-		"date" : "2017-06-01",
-		"likes" : 24,
-		"comments" : [
-      {"username" : "Jane", "content" : "Good One"},
-      {"username" : "Bob", "content" : "Loved It!"}
+  "blog": [
+    {
+      "id": 1,
+      "username": "coreyschafer",
+      "title": "Be Present",
+      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
+      "category": "Entertainment",
+      "date": "2017-06-01",
+      "likes": 24,
+      "comments": [
+        {
+          "username": "Jane",
+          "content": "Good One"
+        },
+        {
+          "username": "Bob",
+          "content": "Loved It!"
+        }
       ]
-  }
-]
+    }
+  ],
+  "users": [
+    {
+      "email": "pp@gmail.com",
+      "username": "priya",
+      "password": "12",
+      "confirmpassword": "12",
+      "id": 1
+    },
+    {
+      "email": "m@gmail.com",
+      "username": "Madhu",
+      "password": "12",
+      "confirmpassword": "12",
+      "id": 2
+    },
+    {
+      "email": "anu@gmail.com",
+      "username": "Anushka",
+      "password": "123",
+      "confirmpassword": "123",
+      "id": 3
+    }
+  ],
+  "add": [
+    {
+      "id": 1,
+      "title": "Special One",
+      "content": "Be Present ys came just after the sun e day the sun’s",
+      "category": "Entertainment",
+      "img_url": "https://img.freepik.com/premium-vector/avatar-man-with-beard-office-worker-wearing-glasses-it-developer-engineer-programmer_277909-144.jpg?w=2000"
+    },
+    {
+      "title": "s",
+      "content": "s",
+      "img_url": "https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-cartoon-man-avatar-vector-ilustration-png-image_6111064.png",
+      "category": "Business",
+      "id": 2
+    },
+    {
+      "title": "Food",
+      "content": "All are my fav",
+      "img_url": "https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-cartoon-man-avatar-vector-ilustration-png-image_6111064.png",
+      "category": "Lifestyle",
+      "id": 3
+    },
+    {
+      "title": "Dressing",
+      "content": "Style",
+      "img_url": "https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-cartoon-man-avatar-vector-ilustration-png-image_6111064.png",
+      "category": "Entertainment",
+      "id": 4
+    }
+  ]
 }
