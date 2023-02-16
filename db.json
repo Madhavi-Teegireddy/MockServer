@@ -117,36 +117,104 @@
       "password": "123",
       "confirmpassword": "123",
       "id": 3
+    },
+    {
+      "email": "k@gmail.com",
+      "username": "Swan",
+      "password": "12",
+      "confirmpassword": "12",
+      "id": 7
+    },
+    {
+      "email": "d@gmail.com",
+      "username": "devika",
+      "password": "34",
+      "confirmpassword": "34",
+      "id": 8
     }
   ],
   "add": [
     {
-      "id": 1,
-      "title": "Special One",
-      "content": "Be Present ys came just after the sun e day the sun’s",
-      "category": "Entertainment",
-      "img_url": "https://img.freepik.com/premium-vector/avatar-man-with-beard-office-worker-wearing-glasses-it-developer-engineer-programmer_277909-144.jpg?w=2000"
-    },
-    {
       "title": "s",
       "content": "s",
+      "price": "30",
       "img_url": "https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-cartoon-man-avatar-vector-ilustration-png-image_6111064.png",
       "category": "Business",
       "id": 2
     },
     {
-      "title": "Food",
-      "content": "All are my fav",
-      "img_url": "https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-cartoon-man-avatar-vector-ilustration-png-image_6111064.png",
-      "category": "Lifestyle",
-      "id": 3
-    },
-    {
       "title": "Dressing",
       "content": "Style",
+      "price": "14",
       "img_url": "https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-cartoon-man-avatar-vector-ilustration-png-image_6111064.png",
-      "category": "Entertainment",
-      "id": 4
+      "category": "Tech",
+      "id": 5
+    },
+    {
+      "title": "j",
+      "content": "k",
+      "img_url": "https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-cartoon-man-avatar-vector-ilustration-png-image_6111064.png",
+      "category": "Business",
+      "id": 6
+    }
+  ],
+  "admin": [
+    {
+      "email": "admin@stockbroker.com",
+      "password": "admin123",
+      "id": 1
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "company_logo": "https://logolook.net/wp-content/uploads/2021/11/HDFC-Bank-Logo.png",
+      "company_name": "HDFC Bank",
+      "company_type": "Bank",
+      "stock_exchange": "NSE",
+      "total_shares": 50000,
+      "cost_per_share": 4210,
+      "price_action": 12
+    },
+    {
+      "id": 2,
+      "company_logo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
+      "company_name": "Reliance Industries",
+      "company_type": "Oil",
+      "stock_exchange": "BSE",
+      "total_shares": 20000,
+      "cost_per_share": 2132,
+      "price_action": 4
+    },
+    {
+      "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDnxausHP5Y0bpTOsD3RiXlpEu8ddmcucYIw4bFVsh&s",
+      "company_name": "Reliance",
+      "company_type": "Oil",
+      "stock_exchange": "BSE",
+      "total_shares": "9876",
+      "cost_per_share": "456",
+      "price_action": "876543",
+      "id": 5
+    },
+    {
+      "company_logo": "data:image/png;base64,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",
+      "company_name": "SBI",
+      "company_type": "Bank",
+      "stock_exchange": "NSE",
+      "total_shares": "3456",
+      "cost_per_share": "654311",
+      "price_action": "23367",
+      "id": 7
+    },
+    {
+      "company_logo": "https://1000logos.net/wp-content/uploads/2020/04/Mahindra-Logo-2012.png",
+      "company_name": "Mahindra",
+      "company_type": "Automobile",
+      "stock_exchange": "BSE",
+      "total_shares": "578",
+      "cost_per_share": "109",
+      "price_action": "24",
+      "id": 8
     }
   ]
 }
