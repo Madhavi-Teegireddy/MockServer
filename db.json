@@ -251,7 +251,7 @@
     }
   ],
   "vehicle": [
-    {
+    { 
       "sce_name": "abc",
       "name": "Pulsor",
       "pos_x": "300",
